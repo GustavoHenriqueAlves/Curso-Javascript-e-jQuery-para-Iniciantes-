@@ -13,20 +13,22 @@ $(function () {
     $('#vermelho').click(function () {
 
         $('h1').css('color', 'red');
-        $('span').text('Cor alterada para vermelho');
-        $('span').fadeIn();
-        $('span').css('color', 'red');
-        $('span').delay(1500);
-        $('span').fadeOut('slow');
+        $('span')
+        .text('Cor alterada para vermelho')
+        .fadeIn()
+        .css('color', 'red')
+        .delay(1500)
+        .fadeOut('slow');
     });
 
     $('#azul').click(function () {
 
-        $('h1').css('color', 'blue');
-        $('span').text('Cor alterada para azul');
-        $('span').fadeIn();
-        $('span').css('color', 'blue');
-        $('span').delay(1500);
-        $('span').fadeOut('slow');
+        $('h1').css('color', 'blue')
+        $('span')
+        .text('Cor alterada para azul')
+        .fadeIn()
+        .css('color', 'blue')
+        .delay(1500)
+        .fadeOut('slow');
     });
 });
