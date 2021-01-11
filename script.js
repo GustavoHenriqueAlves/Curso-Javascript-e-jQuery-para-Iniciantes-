@@ -12,22 +12,22 @@ $(function () {
 
     $('#vermelho').click(function () {
 
-        $('h1').css('color', 'red');
+        $('h1').addClass('red');
         $('span')
+        .addClass('red')
         .text('Cor alterada para vermelho')
         .fadeIn()
-        .css('color', 'red')
         .delay(1500)
         .fadeOut('slow');
     });
 
     $('#azul').click(function () {
 
-        $('h1').css('color', 'blue')
+        $('h1').addClass('blue')
         $('span')
+        .addClass('blue')
         .text('Cor alterada para azul')
         .fadeIn()
-        .css('color', 'blue')
         .delay(1500)
         .fadeOut('slow');
     });
